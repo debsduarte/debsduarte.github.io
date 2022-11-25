@@ -103,3 +103,17 @@
     font-size: 18px;
     color: #eeeeee;
 }
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.title-right-sec {
+    font-size: 25px;
+    font-weight: bold;
+}
