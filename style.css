@@ -99,7 +99,7 @@
 .gap {
     padding-bottom: 2rem;
 }
-.text-contents {
+.about-contents {
     font-size: 18px;
     color: #eeeeee;
 }
@@ -116,4 +116,9 @@
 .title-right-sec {
     font-size: 25px;
     font-weight: bold;
+}
+
+.text-contents {
+    font-size: 16px;
+    color: #eeeeee;
 }
