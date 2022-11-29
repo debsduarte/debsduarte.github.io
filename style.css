@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+body {
+    background-color: #1d323f;
 }
 
 .resume-contents {
@@ -17,19 +21,18 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color:#173333;
+    background-color:#214755;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4a7e7e;
+    background-color: #38758b;
     border-radius: 0px 40px 0px 0px;
 }
 
 .left-section-contents{
     padding: 2rem 2rem;
-    background-color: #173333;
 }
 
 .profile {
@@ -39,28 +42,40 @@
 
 .profile .profile-picture {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
+    border: 6px solid #162630; 
 }
 
 .name {
-    color: #D6DBDF;
+    color: #e9e9f3;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 .profession {
-    color: #eeeeee;
+    color: #06d3a6;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .title-left {
-    color: #eeeeee;
     font-size: 20px;
+    color: #06d3a6;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
 }
 
 .contact-info ul {
@@ -77,7 +92,7 @@
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #eeeeee;
+    color: #5096af;
 }
 
 .skills ul {
@@ -93,15 +108,25 @@
 }
 
 .title-right {
-    color: #eeeeee;
+    color: #1d323f;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
 .about-contents {
-    font-size: 18px;
-    color: #eeeeee;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -116,9 +141,21 @@
 .title-right-sec {
     font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #06d3a6;
+    padding-bottom: .4rem;
 }
+/*   color: #6ecfba; */
 
 .text-contents {
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    border-left: 3px solid #a5a3a3;
+    padding-left: 5px;
+}
+.time-period {
+    font-size: 20px;
     color: #eeeeee;
 }
